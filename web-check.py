@@ -27,7 +27,7 @@ def is_valid_domain(domain):
     """Checks if the string is a valid domain."""
     if len(domain) < 3 or ' ' in domain:
         return False
-    pattern = r'^[a-zA-Z0-9][a-zA-Z0-9\-]{0,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,})+$'
+    pattern = r'^[a-zA-Z0-9][a-zA-Z0-9\-]*(?:\.[a-zA-Z0-9][a-zA-Z0-9\-]*)*\.[a-zA-Z]{2,}$'
     return bool(re.match(pattern, domain))
 
 def get_file_type(url):
