@@ -1,6 +1,6 @@
 # Web Check Url
 
-Project for conducting reconnaissance on Gmail accounts .
+Project to find vulnerabilities of various websites.
 
 ## Description 
 
