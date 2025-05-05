@@ -24,7 +24,7 @@ This script was taken from the repository https://github.com/mathis2001/WebHackU
 
 3. Install the required dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install requests
     ```
 
 ## 📝 Usage
